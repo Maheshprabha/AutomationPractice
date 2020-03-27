@@ -1,0 +1,2 @@
+loc_women = //a[@title='Women']
+loc_product = //span[text()='Quick view'][1]
