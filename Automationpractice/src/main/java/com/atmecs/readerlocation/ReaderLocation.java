@@ -13,5 +13,4 @@ public class ReaderLocation {
 		property.load(file);
 		return property;
 	}
-
 }
