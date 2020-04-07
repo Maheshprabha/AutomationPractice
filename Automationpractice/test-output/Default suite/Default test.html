@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 30 16:11:53 IST 2020</td>
+<td>Started on:</td><td>Tue Apr 07 19:18:38 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>132 seconds (132667 ms)</td>
+<tr><td>Total time:</td><td>187 seconds (187028 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.atmecs.testscript.TestScript.validateHomePage()'><b>validateHomePage</b><br>Test class: com.atmecs.testscript.TestScript</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.atmecs.datalocator.LocatorDataAllocator.getLocatorData(LocatorDataAllocator.java:40)
-	at com.atmecs.automationpractice.pages.HomePageValidationHelper.validateHomePage(HomePageValidationHelper.java:20)
-	at com.atmecs.testscript.TestScript.validateHomePage(TestScript.java:20)
+<td title='com.atmecs.testscript.TestScript.action()'><b>action</b><br>Test class: com.atmecs.testscript.TestScript</td>
+<td><div><pre>java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:339)
+	at org.openqa.selenium.By.xpath(By.java:92)
+	at com.atmecs.commonhelpers.CommonHelpers.clickAction(CommonHelpers.java:21)
+	at com.atmecs.testscript.TestScript.action(TestScript.java:17)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,11 +109,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace159290353", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace159290353'><pre>java.lang.NullPointerException
-	at com.atmecs.datalocator.LocatorDataAllocator.getLocatorData(LocatorDataAllocator.java:40)
-	at com.atmecs.automationpractice.pages.HomePageValidationHelper.validateHomePage(HomePageValidationHelper.java:20)
-	at com.atmecs.testscript.TestScript.validateHomePage(TestScript.java:20)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1551629761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1551629761'><pre>java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
+	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:339)
+	at org.openqa.selenium.By.xpath(By.java:92)
+	at com.atmecs.commonhelpers.CommonHelpers.clickAction(CommonHelpers.java:21)
+	at com.atmecs.testscript.TestScript.action(TestScript.java:17)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,7 +144,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
+<td>2</td>
 <td>com.atmecs.testscript.TestScript@1c3a4799</td></tr>
 </table><p>
 </body>

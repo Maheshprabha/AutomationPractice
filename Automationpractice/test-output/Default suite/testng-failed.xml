@@ -5,7 +5,7 @@
     <classes>
       <class name="com.atmecs.testscript.TestScript">
         <methods>
-          <include name="validateHomePage"/>
+          <include name="action"/>
           <include name="invokeBrowser"/>
         </methods>
       </class> <!-- com.atmecs.testscript.TestScript -->

@@ -1,0 +1,8 @@
+loc_women = //li/a[@title='Women']
+loc_dress = //a[@title='Faded Short Sleeve T-shirts']
+loc_cart = //span[text()='Add to cart'][1]
+loc_checkout = //a[@title='Proceed to checkout']
+loc_finalcheckout = //a/span[text()='Proceed to checkout']
+loc_name = //input[@id='email']
+loc_password = //input[@id='passwd']
+loc_signbutton = //button[@id='SubmitLogin']
